@@ -1,4 +1,4 @@
-# onsland
+# landvanons
 
 demo: https://bertt.github.io/landvanons/
 
