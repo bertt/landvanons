@@ -21,11 +21,16 @@ body { margin: 0; padding: 0; }
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v10',
-        zoom: 8,
-        center: [5, 52]
+        zoom: 15,
+        center: [4.55301,52.19164]
     });
 
     map.on('load', () => {
+        map.addSource('onsland', {
+            type: 'geojson',
+            data: 'all.geojson'
+        });
+
         map.addSource('wms-test-source', {
             'type': 'raster',
             // use the tiles option to specify a WMS tile source URL
@@ -44,6 +49,17 @@ body { margin: 0; padding: 0; }
             },
             'aeroway-line'
         );
+
+        map.addLayer({
+            'id': 'onsland',
+            'type': 'fill',
+            'source': 'onsland',
+            'paint': {
+                'fill-color': '#0080ff', 
+                'fill-opacity': 0.5
+            }
+        });
+
     });
 </script>
 
