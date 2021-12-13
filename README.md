@@ -1,6 +1,6 @@
 # onsland
 
-demo: https://bertt.github.io/onsland/
+demo: https://bertt.github.io/landvanons/
 
 ## Prerequisites:
 
