@@ -9,10 +9,41 @@
 <style>
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+#anchors{
+        position: absolute; 
+        text-align:center;
+        height: 300px;
+        width:200px;
+        left:10px;
+        top:80px;
+        background-color:white;
+        opacity:0.5; 
+        border-radius: 25px;
+    }
+    #fly {
+        display: block;
+        position: relative;
+        margin: 0px auto;
+        width: 40%;
+        height: 30px;
+        top:10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        background: #ee8a65;
+    }
 </style>
 </head>
 <body>
 <div id="map"></div>
+<div id="anchors"></div>
+<div id="fly">
+    <h2>
+      Parcels Land van ons
+    </h2>
+  </div>
 <script>
 	// TO MAKE THE MAP APPEAR YOU MUST
 	// ADD YOUR ACCESS TOKEN FROM
@@ -60,7 +91,30 @@ body { margin: 0; padding: 0; }
             }
         });
 
+        var anchorsDiv = document.getElementById('anchors');
+        AddAnchor(map, anchorsDiv, "Alkemade", [4.55301,52.19164]);
+        AddAnchor(map, anchorsDiv, "Diepenveen", [ 6.241225, 52.276483]);
+        AddAnchor(map, anchorsDiv, "Millingen", [6.02396, 51.848790]);
+
     });
+
+function AddAnchor(map, anchorsDiv, place, coords){
+    var a = document.createElement( 'a' );
+        a.text = place;
+        a.href = '#';
+        a.onclick  = function () {
+            map.flyTo({
+                center: [
+                    coords[0],
+                    coords[1]
+                ],
+                essential: true // this animation is considered essential with respect to prefers-reduced-motion
+            });
+        };
+        anchorsDiv.appendChild(a);
+        anchorsDiv.appendChild(document.createElement('br'));
+}
+
 </script>
 
 </body>
