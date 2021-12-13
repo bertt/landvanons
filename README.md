@@ -21,6 +21,7 @@ $ npm install -g @mapbox/geojson-merge
 ## Processing
 
 Input: data/parcels.txt
+
 Output: GeoJSON file with parcels
 
 Using: WFS PDOK kadastralekaart
