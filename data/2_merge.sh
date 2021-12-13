@@ -1,1 +1,1 @@
- geojson-merge ./temp/*.geojson > all.geojson
+ geojson-merge ./temp/*.geojson > ../all.geojson
