@@ -55,4 +55,8 @@ https://landvanons.nl/wp-content/uploads/2021/06/Ruimtelijke-analyse-Ooijpolder-
 
 https://landvanons.nl/wp-content/uploads/2020/09/Ruimtelijke-analyse-Lettele.pdf
 
-- Todo: Triemen, Holtesch, Zwagermieden, Onner Es, Noordbeemster, Hezenes, Duffelt
+- Beemster
+
+https://landvanons.nl/wp-content/uploads/2021/04/Ruimtelijke-Analyse-Beemster-V03-1.pdf
+
+- Todo: Triemen, Holtesch, Zwagermieden, Onner Es, Hezenes, Duffelt

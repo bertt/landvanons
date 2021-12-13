@@ -1801,6 +1801,204 @@
     {
       "type": "Feature",
       "properties": {
+        "gml_id": "perceel.202ff907-7fdd-484c-8ed0-80a8e0dbdbb7",
+        "id": "202ff907-7fdd-484c-8ed0-80a8e0dbdbb7",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "70580141470000",
+        "beginGeldigheid": "2005-02-08T16:46:20.000",
+        "tijdstipRegistratie": "2005-02-08T16:46:20.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "88",
+        "kadastraleGemeenteWaarde": "Beemster",
+        "sectie": "B",
+        "AKRKadastraleGemeenteCodeCode": "135",
+        "AKRKadastraleGemeenteCodeWaarde": "BSR00",
+        "kadastraleGrootteWaarde": 40580,
+        "soortGrootteCode": "1",
+        "soortGrootteWaarde": "Vastgesteld",
+        "perceelnummer": 1414,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 125723.904,
+        "perceelnummerPlaatscoordinaatY": 513029.824
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.958024218929598,
+              52.60350118673525
+            ],
+            [
+              4.958033423154131,
+              52.60350643255702
+            ],
+            [
+              4.958041810636163,
+              52.60351217871305
+            ],
+            [
+              4.958049293423817,
+              52.603518361975404
+            ],
+            [
+              4.958055812999078,
+              52.60352492820971
+            ],
+            [
+              4.958061325429509,
+              52.603531841308545
+            ],
+            [
+              4.958065787220266,
+              52.603539020230166
+            ],
+            [
+              4.958069139677946,
+              52.60354642881376
+            ],
+            [
+              4.958071368829081,
+              52.60355398612415
+            ],
+            [
+              4.958149057348481,
+              52.60379652599849
+            ],
+            [
+              4.953035019788271,
+              52.6051221007089
+            ],
+            [
+              4.952450515382711,
+              52.60420462507064
+            ],
+            [
+              4.957121134244241,
+              52.60297386861187
+            ],
+            [
+              4.958024218929598,
+              52.60350118673525
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "perceel.192424cf-dd1f-4091-adb3-ec728f9c384a",
+        "id": "192424cf-dd1f-4091-adb3-ec728f9c384a",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "70580141570000",
+        "beginGeldigheid": "2004-03-31T11:35:32.000",
+        "tijdstipRegistratie": "2004-03-31T11:35:32.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "88",
+        "kadastraleGemeenteWaarde": "Beemster",
+        "sectie": "B",
+        "AKRKadastraleGemeenteCodeCode": "135",
+        "AKRKadastraleGemeenteCodeWaarde": "BSR00",
+        "kadastraleGrootteWaarde": 41840,
+        "soortGrootteCode": "1",
+        "soortGrootteWaarde": "Vastgesteld",
+        "perceelnummer": 1415,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 125661.76,
+        "perceelnummerPlaatscoordinaatY": 512912.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.956337983015652,
+              52.60255432170413
+            ],
+            [
+              4.956356153116319,
+              52.60255740727979
+            ],
+            [
+              4.956374022298359,
+              52.602561075931085
+            ],
+            [
+              4.956391561041506,
+              52.60256532755121
+            ],
+            [
+              4.956408680959397,
+              52.602570143845405
+            ],
+            [
+              4.95642536746784,
+              52.60257550678664
+            ],
+            [
+              4.956441546852892,
+              52.60258140712062
+            ],
+            [
+              4.956457189769748,
+              52.60258782676678
+            ],
+            [
+              4.95647223735261,
+              52.6025947475376
+            ],
+            [
+              4.956486675016963,
+              52.602602151406
+            ],
+            [
+              4.956500429224213,
+              52.60261001114403
+            ],
+            [
+              4.956513470629186,
+              52.60261830867115
+            ],
+            [
+              4.957121134244241,
+              52.60297386861187
+            ],
+            [
+              4.952450515382711,
+              52.60420462507064
+            ],
+            [
+              4.952375497133755,
+              52.60408349951724
+            ],
+            [
+              4.951706149726181,
+              52.6029996256464
+            ],
+            [
+              4.954780418473567,
+              52.60221762064786
+            ],
+            [
+              4.956337983015652,
+              52.60255432170413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "gml_id": "perceel.65ffcd38-0d14-4e51-bbc7-d457e8a66c28",
         "id": "65ffcd38-0d14-4e51-bbc7-d457e8a66c28",
         "identificatieNamespace": "NL.IMKAD.KadastraalObject",
