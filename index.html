@@ -15,24 +15,24 @@ body { margin: 0; padding: 0; }
         height: 300px;
         width:200px;
         left:10px;
-        top:80px;
+        top:100px;
         background-color:white;
-        opacity:0.5; 
+        opacity:0.8; 
         border-radius: 25px;
     }
     #fly {
         display: block;
-        position: relative;
+        position: absolute;
         margin: 0px auto;
         width: 40%;
         height: 30px;
         top:10px;
+        left:40px;
         border: none;
-        border-radius: 3px;
-        font-size: 12px;
-        text-align: center;
-        color: #fff;
-        background: #ee8a65;
+    }
+    .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     }
 </style>
 </head>
@@ -40,10 +40,8 @@ body { margin: 0; padding: 0; }
 <div id="map"></div>
 <div id="anchors"></div>
 <div id="fly">
-    <h2>
-      Percelen Land van ons
-    </h2>
-  </div>
+    <img src="logo.png"/>
+</div>
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiYmVydHQiLCJhIjoiY2t4NGhremxtMDVubjJwbnp4YTV6ejk0aCJ9.jPB89dGqQkqCMrKCJa9N5Q';
     const map = new mapboxgl.Map({
@@ -86,6 +84,14 @@ body { margin: 0; padding: 0; }
                 'fill-color': '#0080ff', 
                 'fill-opacity': 0.5
             }
+        });
+
+        map.on('click', 'onsland', (e) => {
+            var props = e.features[0].properties;
+            var info = props.kadastraleGemeenteWaarde + " " + props.sectie + " " + props.perceelnummer;
+            new mapboxgl.Popup().setLngLat(e.lngLat)
+            .setHTML(info)
+            .addTo(map);            
         });
 
         var anchorsDiv = document.getElementById('anchors');
