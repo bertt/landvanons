@@ -60,3 +60,18 @@ https://landvanons.nl/wp-content/uploads/2020/09/Ruimtelijke-analyse-Lettele.pdf
 https://landvanons.nl/wp-content/uploads/2021/04/Ruimtelijke-Analyse-Beemster-V03-1.pdf
 
 - Todo: Triemen, Holtesch, Zwagermieden, Onner Es, Hezenes, Duffelt
+
+
+datacenter: 
+
+ZWD03,A,6364
+ZWD03,A,4012
+ZWD03,A,6359
+ZWD03,A,6372
+ZWD03,A,6367
+ZWD03,A,4741
+
+
+
+
+
