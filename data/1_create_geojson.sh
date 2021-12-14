@@ -2,6 +2,7 @@
 input="parcels.txt"
 while IFS= read -r line
 do
+  echo "."
   IFS=','
   read -a strarr <<< "$line"
   gemeente="${strarr[0]}"

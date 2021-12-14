@@ -1,0 +1,703 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "perceel.b6c0d9b0-3693-45cb-975a-78c5b7f47f6c",
+        "id": "b6c0d9b0-3693-45cb-975a-78c5b7f47f6c",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "89580401270000",
+        "beginGeldigheid": "2008-04-28T11:39:14.000",
+        "tijdstipRegistratie": "2008-04-28T11:39:14.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "1156",
+        "kadastraleGemeenteWaarde": "Zeewolde",
+        "sectie": "A",
+        "AKRKadastraleGemeenteCodeCode": "1266",
+        "AKRKadastraleGemeenteCodeWaarde": "ZWD03",
+        "kadastraleGrootteWaarde": 228424,
+        "soortGrootteCode": "1",
+        "soortGrootteWaarde": "Vastgesteld",
+        "perceelnummer": 4012,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 164579.412,
+        "perceelnummerPlaatscoordinaatY": 487075.919
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.531756692975261,
+              52.36777122000702
+            ],
+            [
+              5.533426813833024,
+              52.3688802112341
+            ],
+            [
+              5.534184001506977,
+              52.3693852282666
+            ],
+            [
+              5.524042105861104,
+              52.375062539862334
+            ],
+            [
+              5.521622799294835,
+              52.37344337326951
+            ],
+            [
+              5.531670690883579,
+              52.36781886945007
+            ],
+            [
+              5.531703197571495,
+              52.36780067480365
+            ],
+            [
+              5.531756692975261,
+              52.36777122000702
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "perceel.b3b727a9-1805-8d59-59fb-3b48d722b24f",
+        "id": "b3b727a9-1805-8d59-59fb-3b48d722b24f",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "89580474170000",
+        "beginGeldigheid": "2021-03-29T16:03:42.000",
+        "tijdstipRegistratie": "2021-03-29T16:03:42.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "1156",
+        "kadastraleGemeenteWaarde": "Zeewolde",
+        "sectie": "A",
+        "AKRKadastraleGemeenteCodeCode": "1266",
+        "AKRKadastraleGemeenteCodeWaarde": "ZWD03",
+        "kadastraleGrootteWaarde": 395935,
+        "soortGrootteCode": "1",
+        "soortGrootteWaarde": "Vastgesteld",
+        "perceelnummer": 4741,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 165263.845,
+        "perceelnummerPlaatscoordinaatY": 487827.393
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.532157140067508,
+              52.38049415763201
+            ],
+            [
+              5.53151895321778,
+              52.38006579115864
+            ],
+            [
+              5.5335367475632,
+              52.37893913797572
+            ],
+            [
+              5.536679492964335,
+              52.377184186495285
+            ],
+            [
+              5.53672093135968,
+              52.37716104504395
+            ],
+            [
+              5.536725490008654,
+              52.37715849579798
+            ],
+            [
+              5.536726354853555,
+              52.377158018363275
+            ],
+            [
+              5.536730371134409,
+              52.377155766392676
+            ],
+            [
+              5.536771486999663,
+              52.37713280508266
+            ],
+            [
+              5.540785348437051,
+              52.374891076050496
+            ],
+            [
+              5.541681851562704,
+              52.37439033398169
+            ],
+            [
+              5.542143065649669,
+              52.374548172484545
+            ],
+            [
+              5.544670050983273,
+              52.376242416079094
+            ],
+            [
+              5.545797739141249,
+              52.37710659184202
+            ],
+            [
+              5.545835409146874,
+              52.37716433138839
+            ],
+            [
+              5.545818501615221,
+              52.37724515231744
+            ],
+            [
+              5.545783780772116,
+              52.37726461203331
+            ],
+            [
+              5.535938541306426,
+              52.38275989917765
+            ],
+            [
+              5.535842426801405,
+              52.382782048527794
+            ],
+            [
+              5.535745285468799,
+              52.38276958800599
+            ],
+            [
+              5.535620194275253,
+              52.38270907905342
+            ],
+            [
+              5.535223070787635,
+              52.382480124446026
+            ],
+            [
+              5.534878966980433,
+              52.38226701027899
+            ],
+            [
+              5.534412205800677,
+              52.382007672056666
+            ],
+            [
+              5.53241663973361,
+              52.38066833273894
+            ],
+            [
+              5.532958893128604,
+              52.38036921565878
+            ],
+            [
+              5.532819353761866,
+              52.38027531476835
+            ],
+            [
+              5.532764126970926,
+              52.38023815628357
+            ],
+            [
+              5.532773596890723,
+              52.380232770064275
+            ],
+            [
+              5.532733856054111,
+              52.380206395549216
+            ],
+            [
+              5.532724649874752,
+              52.38021159270203
+            ],
+            [
+              5.532690463863542,
+              52.380230895111886
+            ],
+            [
+              5.532692333056388,
+              52.380232106132944
+            ],
+            [
+              5.53218682860368,
+              52.38051408260806
+            ],
+            [
+              5.532157140067508,
+              52.38049415763201
+            ]
+          ],
+          [
+            [
+              5.533762865491741,
+              52.37991773838243
+            ],
+            [
+              5.533719502722837,
+              52.37994199562381
+            ],
+            [
+              5.535029505194175,
+              52.38081726364987
+            ],
+            [
+              5.534679993318424,
+              52.381013539000996
+            ],
+            [
+              5.535213743224224,
+              52.381372509364
+            ],
+            [
+              5.535798099324591,
+              52.38104433273767
+            ],
+            [
+              5.535264289986453,
+              52.38068539202167
+            ],
+            [
+              5.535073556762808,
+              52.38079251974351
+            ],
+            [
+              5.533762865491741,
+              52.37991773838243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "perceel.10ffdf3a-0958-abed-b39c-9ad48415b69d",
+        "id": "10ffdf3a-0958-abed-b39c-9ad48415b69d",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "89580635970000",
+        "beginGeldigheid": "2021-03-18T11:17:18.000",
+        "tijdstipRegistratie": "2021-03-18T11:17:18.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "1156",
+        "kadastraleGemeenteWaarde": "Zeewolde",
+        "sectie": "A",
+        "AKRKadastraleGemeenteCodeCode": "1266",
+        "AKRKadastraleGemeenteCodeWaarde": "ZWD03",
+        "kadastraleGrootteWaarde": 203749,
+        "soortGrootteCode": "5",
+        "soortGrootteWaarde": "Voorlopig",
+        "perceelnummer": 6359,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 164766.087,
+        "perceelnummerPlaatscoordinaatY": 487218.208
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.525462897318147,
+              52.3760133445518
+            ],
+            [
+              5.524042105861104,
+              52.375062539862334
+            ],
+            [
+              5.534184001506977,
+              52.3693852282666
+            ],
+            [
+              5.536607559410872,
+              52.37100152788474
+            ],
+            [
+              5.534947203360709,
+              52.37193036839491
+            ],
+            [
+              5.534866324031029,
+              52.371873110714226
+            ],
+            [
+              5.528621241691292,
+              52.375374286875825
+            ],
+            [
+              5.528480563919784,
+              52.37527017227883
+            ],
+            [
+              5.528424553333604,
+              52.37525122149326
+            ],
+            [
+              5.528368585222214,
+              52.375245581221535
+            ],
+            [
+              5.528282182308566,
+              52.375251463356385
+            ],
+            [
+              5.527711588301305,
+              52.37488871243938
+            ],
+            [
+              5.527453745340343,
+              52.37503103117367
+            ],
+            [
+              5.527357195725116,
+              52.3749674148015
+            ],
+            [
+              5.525462897318147,
+              52.3760133445518
+            ]
+          ],
+          [
+            [
+              5.525229119756657,
+              52.374410738603494
+            ],
+            [
+              5.525348050448876,
+              52.37449030147995
+            ],
+            [
+              5.525478724662325,
+              52.37441782574169
+            ],
+            [
+              5.5253594556771,
+              52.37433810161436
+            ],
+            [
+              5.525229119756657,
+              52.374410738603494
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "perceel.732e6dcd-48b6-f8a6-706b-7163fc898827",
+        "id": "732e6dcd-48b6-f8a6-706b-7163fc898827",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "89580636470000",
+        "beginGeldigheid": "2021-03-23T16:33:53.000",
+        "tijdstipRegistratie": "2021-03-23T16:33:53.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "1156",
+        "kadastraleGemeenteWaarde": "Zeewolde",
+        "sectie": "A",
+        "AKRKadastraleGemeenteCodeCode": "1266",
+        "AKRKadastraleGemeenteCodeWaarde": "ZWD03",
+        "kadastraleGrootteWaarde": 327099,
+        "soortGrootteCode": "5",
+        "soortGrootteWaarde": "Voorlopig",
+        "perceelnummer": 6364,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 164377.014,
+        "perceelnummerPlaatscoordinaatY": 486851.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.521622799294835,
+              52.37344337326951
+            ],
+            [
+              5.518123058581498,
+              52.37109714899122
+            ],
+            [
+              5.528131942156404,
+              52.3654962279348
+            ],
+            [
+              5.52916841282846,
+              52.366176121087584
+            ],
+            [
+              5.531670690883579,
+              52.36781886945007
+            ],
+            [
+              5.521622799294835,
+              52.37344337326951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "perceel.2c9fb7c4-4518-0c79-ddfd-c21668609141",
+        "id": "2c9fb7c4-4518-0c79-ddfd-c21668609141",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "89580636770000",
+        "beginGeldigheid": "2021-03-29T16:03:42.000",
+        "tijdstipRegistratie": "2021-03-29T16:03:42.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "1156",
+        "kadastraleGemeenteWaarde": "Zeewolde",
+        "sectie": "A",
+        "AKRKadastraleGemeenteCodeCode": "1266",
+        "AKRKadastraleGemeenteCodeWaarde": "ZWD03",
+        "kadastraleGrootteWaarde": 224002,
+        "soortGrootteCode": "5",
+        "soortGrootteWaarde": "Voorlopig",
+        "perceelnummer": 6367,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 164829.853,
+        "perceelnummerPlaatscoordinaatY": 487656.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.531771570146684,
+              52.37371095778719
+            ],
+            [
+              5.531776099356872,
+              52.37370840876597
+            ],
+            [
+              5.532002817118783,
+              52.37386646540825
+            ],
+            [
+              5.53666660508131,
+              52.377116391586355
+            ],
+            [
+              5.533865530343737,
+              52.37866882509964
+            ],
+            [
+              5.533331620955007,
+              52.378310648588176
+            ],
+            [
+              5.53293887615347,
+              52.378521999536986
+            ],
+            [
+              5.532706581364196,
+              52.37835992524749
+            ],
+            [
+              5.530637087964208,
+              52.37947506014765
+            ],
+            [
+              5.529084140885339,
+              52.37843474485433
+            ],
+            [
+              5.530036608795965,
+              52.37789714837204
+            ],
+            [
+              5.530262690143629,
+              52.378044423916016
+            ],
+            [
+              5.530822149684266,
+              52.377726313890676
+            ],
+            [
+              5.530299288547075,
+              52.37738568093725
+            ],
+            [
+              5.529739800205783,
+              52.37770379753637
+            ],
+            [
+              5.529996137416337,
+              52.377870782798624
+            ],
+            [
+              5.529044535540367,
+              52.37840821614324
+            ],
+            [
+              5.526840898093002,
+              52.37693187229559
+            ],
+            [
+              5.526855910064591,
+              52.37675128536185
+            ],
+            [
+              5.526589818312163,
+              52.376572746765255
+            ],
+            [
+              5.526627293136862,
+              52.37655326247324
+            ],
+            [
+              5.526881889109852,
+              52.376420790815
+            ],
+            [
+              5.526989656501849,
+              52.37637134867181
+            ],
+            [
+              5.527188649373787,
+              52.37628004221942
+            ],
+            [
+              5.529874776240198,
+              52.37477662639601
+            ],
+            [
+              5.531670373352259,
+              52.37376781104033
+            ],
+            [
+              5.531716237334051,
+              52.37374204154549
+            ],
+            [
+              5.531771570146684,
+              52.37371095778719
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "perceel.230fd098-6d6e-fb7b-aab8-205dff237552",
+        "id": "230fd098-6d6e-fb7b-aab8-205dff237552",
+        "identificatieNamespace": "NL.IMKAD.KadastraalObject",
+        "identificatieLokaalID": "89580637270000",
+        "beginGeldigheid": "2021-03-29T16:03:42.000",
+        "tijdstipRegistratie": "2021-03-29T16:03:42.000",
+        "volgnummer": 0,
+        "statusHistorieCode": "G",
+        "statusHistorieWaarde": "Geldig",
+        "kadastraleGemeenteCode": "1156",
+        "kadastraleGemeenteWaarde": "Zeewolde",
+        "sectie": "A",
+        "AKRKadastraleGemeenteCodeCode": "1266",
+        "AKRKadastraleGemeenteCodeWaarde": "ZWD03",
+        "kadastraleGrootteWaarde": 217994,
+        "soortGrootteCode": "5",
+        "soortGrootteWaarde": "Voorlopig",
+        "perceelnummer": 6372,
+        "perceelnummerRotatie": 0,
+        "perceelnummerVerschuivingDeltaX": 0,
+        "perceelnummerVerschuivingDeltaY": 0,
+        "perceelnummerPlaatscoordinaatX": 165187.154,
+        "perceelnummerPlaatscoordinaatY": 487372.108
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.532002817118783,
+              52.37386646540825
+            ],
+            [
+              5.532007683488677,
+              52.37386373621388
+            ],
+            [
+              5.533683480144194,
+              52.372923306342635
+            ],
+            [
+              5.535862791280281,
+              52.37170223949253
+            ],
+            [
+              5.535851603180841,
+              52.37169379624828
+            ],
+            [
+              5.536488179509537,
+              52.371349587849345
+            ],
+            [
+              5.536767611528772,
+              52.37121900469411
+            ],
+            [
+              5.536857419437117,
+              52.37120225504793
+            ],
+            [
+              5.536961936456355,
+              52.37123646425069
+            ],
+            [
+              5.53771855374857,
+              52.37174437119968
+            ],
+            [
+              5.541681851562704,
+              52.37439033398169
+            ],
+            [
+              5.540785348437051,
+              52.374891076050496
+            ],
+            [
+              5.540715740043139,
+              52.37484398168233
+            ],
+            [
+              5.53666660508131,
+              52.377116391586355
+            ],
+            [
+              5.532002817118783,
+              52.37386646540825
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

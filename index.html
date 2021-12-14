@@ -52,6 +52,11 @@ body { margin: 0; padding: 0; }
     });
 
     map.on('load', () => {
+        map.addSource('datacenter', {
+            type: 'geojson',
+            data: 'datacenter.geojson'
+        });
+
         map.addSource('onsland', {
             type: 'geojson',
             data: 'all.geojson'
@@ -86,6 +91,16 @@ body { margin: 0; padding: 0; }
             }
         });
 
+        map.addLayer({
+            'id': 'datacenter',
+            'type': 'fill',
+            'source': 'datacenter',
+            'paint': {
+                'fill-color': '#FFD800', 
+                'fill-opacity': 0.5
+            }
+        });
+
         map.on('click', 'onsland', (e) => {
             var props = e.features[0].properties;
             var info = props.kadastraleGemeenteWaarde + " " + props.sectie + " " + props.perceelnummer;
@@ -94,12 +109,23 @@ body { margin: 0; padding: 0; }
             .addTo(map);            
         });
 
+        map.on('click', 'datacenter', (e) => {
+            var props = e.features[0].properties;
+            var info = props.kadastraleGemeenteWaarde + " " + props.sectie + " " + props.perceelnummer;
+            new mapboxgl.Popup().setLngLat(e.lngLat)
+            .setHTML(info)
+            .addTo(map);            
+        });
+
+
         var anchorsDiv = document.getElementById('anchors');
+        AddAnchor(map, anchorsDiv, "Datacenter Zeewolde", [5.53487,52.3822]);
         AddAnchor(map, anchorsDiv, "Alkemade", [4.55301,52.19164]);
         AddAnchor(map, anchorsDiv, "Beemster", [4.956391, 52.602]);
         AddAnchor(map, anchorsDiv, "Diepenveen", [ 6.241225, 52.276483]);
         AddAnchor(map, anchorsDiv, "Haren", [ 6.64302, 53.14642]);
         AddAnchor(map, anchorsDiv, "Millingen", [6.02396, 51.848790]);
+
 
     });
 
