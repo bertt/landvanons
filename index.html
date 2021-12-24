@@ -44,11 +44,24 @@ body { margin: 0; padding: 0; }
 </div>
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiYmVydHQiLCJhIjoiY2t4NGhremxtMDVubjJwbnp4YTV6ejk0aCJ9.jPB89dGqQkqCMrKCJa9N5Q';
+
+    var lat = 52.19164;
+    var lng = 4.55301;
+    var level = 15;
+
+    var center = getURLParameter("loc");
+    if(center!==null){
+        var latLng = center.split(",");
+        lat = parseFloat(latLng[0]);
+        lng = parseFloat(latLng[1]);
+        level = parseFloat(latLng[2]);
+    }
+
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v10',
-        zoom: 15,
-        center: [4.55301,52.19164]
+        zoom: level,
+        center: [lng,lat]
     });
 
     map.on('load', () => {
@@ -126,8 +139,11 @@ body { margin: 0; padding: 0; }
         AddAnchor(map, anchorsDiv, "Haren", [ 6.64302, 53.14642]);
         AddAnchor(map, anchorsDiv, "Millingen", [6.02396, 51.848790]);
 
-
     });
+
+function getURLParameter(name) {
+    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+}
 
 function AddAnchor(map, anchorsDiv, place, coords){
     var a = document.createElement( 'a' );
